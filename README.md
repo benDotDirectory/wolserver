@@ -18,6 +18,7 @@ $ sudo npm install pm2 -g # Install pm2 process scheduler globally. You need nod
 $ sudo pm2 start ~/wolserver/server.py --name "wolserver"
 # Make sure it ran without errors
 $ sudo pm2 status
+```
 
 ## add devices
 Edit ```server.py``` and add your devicename and mac address to the 'devices' variable.
