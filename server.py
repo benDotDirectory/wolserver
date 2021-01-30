@@ -16,7 +16,6 @@ app = Flask(__name__, template_folder="templates")
 
 # Devices
 devices = {
-    "pothos0": "bc:30:5b:a9:d6:5a",
     "hyperv": "78:45:c4:04:11:9b"
 }
 
