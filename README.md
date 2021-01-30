@@ -14,7 +14,10 @@ $ sudo pip3 install flask wakeonlan
 # Run an instance
 $ sudo python3 server.py
 # It is recomended to run from a process scheduler, though
-$ sudo npm install pm2 -g # Install pm2 process scheduler globally. You need nodejs/npm installed to use this
+# Install node.js/npm
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+$ sudo apt install nodejs
+$ sudo npm install pm2 -g # Install pm2 process scheduler globally
 $ sudo pm2 start ~/wolserver/server.py --name "wolserver"
 # Make sure it ran without errors
 $ sudo pm2 status
