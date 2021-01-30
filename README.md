@@ -18,7 +18,7 @@ $ sudo python3 server.py
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 $ sudo apt install nodejs
 $ sudo npm install pm2 -g # Install pm2 process scheduler globally
-$ sudo pm2 start ~/wolserver/server.py --name "wolserver"
+$ sudo pm2 start ~/wolserver/server.py --name "wolserver" --interpreter=python3
 # Make sure it ran without errors
 $ sudo pm2 status
 ```
